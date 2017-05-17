@@ -1,13 +1,15 @@
 #! /usr/bin/env python3
 
 import sys
+from PyQt5 import QtWidgets
+from PyQt5 import QtPrintSupport
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtCore import Qt
 
-class Main(QtGui.QMainWindow):
+class Main(QtWidgets.QMainWindow):
 
     def __init__(self, parent = None):
-        QtGui.QMainWindow.__init__(self,parent)
+        QtWidgets.QMainWindow.__init__(self,parent)
 
         self.initUI()
 
@@ -20,7 +22,7 @@ class Main(QtGui.QMainWindow):
 
 def main():
 
-    app = QtGui.QApplication(sys.argv)
+    app = QtWidgets.QApplication(sys.argv)
 
     main = Main()
     main.show()
