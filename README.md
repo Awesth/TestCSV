@@ -1,3 +1,3 @@
 # TestCSV
 
-Now with Visual Studio Code!
+Just playing around with making a text editor while also learning CSV
