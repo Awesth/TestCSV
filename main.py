@@ -5,6 +5,7 @@ from PyQt5 import QtWidgets
 from PyQt5 import QtPrintSupport
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtCore import Qt
+x = 5
 
 class Main(QtWidgets.QMainWindow):
 
