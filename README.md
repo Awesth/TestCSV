@@ -1,5 +1,5 @@
-# My Text Editor
+# My Little Program
 
-Just playing around with making a text editor while also learning VSC.
+Just playing around with making a thing while also learning VSC.
 
-<b>Hello?</b>
+<b>IS THIS IN BOLD?</b>
