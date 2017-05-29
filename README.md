@@ -1,7 +1,3 @@
-# My Little Program
+# HTTP Client
 
-Just playing around with making a thing while also learning VSC.
-
-<b>IS THIS IN BOLD?</b>
-
-<i>Is this in itallic?</i>
+Simple http client, created using a quick script borrowed from: https://daanlenaerts.com/blog/2015/06/03/create-a-simple-http-server-with-python-3/
