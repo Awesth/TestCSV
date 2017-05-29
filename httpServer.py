@@ -3,7 +3,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
 
-# HTTPRequestHandler class
+# HTTPRequestHandler class.
 class testHTTPServer_RequestHandler(BaseHTTPRequestHandler):
 
   # GET method.
