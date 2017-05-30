@@ -7,7 +7,8 @@ import os
 class testHTTPServer_RequestHandler(BaseHTTPRequestHandler):
 
   # GET method.
-  def doGET(self):
+  def do_GET(self):
+
         # Send response status code.
         self.send_response(200)
 
@@ -16,7 +17,7 @@ class testHTTPServer_RequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
 
         # Send message back to client.
-        message = "Hello world!"
+        message = "Good day!"
         # Write content as utf-8 data.
         self.wfile.write(bytes(message, "utf8"))
         return
@@ -25,7 +26,7 @@ def run():
   print('starting server...')
 
   # Server settings.
-  # Choose port 8080, for port 80, which is normally used for a http server, you need root access.
+  # Choosing port 8080, for port 80, which is normally used for a http server, you need root access.
   server_address = ('127.0.0.1', 8081)
   httpd = HTTPServer(server_address, testHTTPServer_RequestHandler)
   print('running server...')
